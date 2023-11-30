@@ -29,3 +29,13 @@ def f x := x * x + 1
 
 /- Printing -/
 #eval println! "Result of {4} * {4} + 1 = {f 4}"
+
+/- Creating types -/
+inductive Weekday where
+  | sunday : Weekday
+  | monday : Weekday
+  | tuesday : Weekday
+  | wednesday : Weekday
+  | thursday : Weekday
+  | friday : Weekday
+  | saturday : Weekday
