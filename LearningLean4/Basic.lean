@@ -12,3 +12,8 @@ def b2 : Bool := false
 
 #check b1
 #check b2
+
+
+/- Defining functions -/
+
+def f x := x * x + 1
