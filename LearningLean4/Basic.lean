@@ -17,3 +17,9 @@ def b2 : Bool := false
 /- Defining functions -/
 
 def f x := x * x + 1
+
+/- Evaluating expressions -/
+
+#eval 2 + 2
+#eval 4 * 9
+#eval 9 / 9
