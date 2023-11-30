@@ -18,6 +18,10 @@ def b2 : Bool := false
 
 def f x := x * x + 1
 
+/- Evaluating functions -/
+#eval f 10
+#eval f 30
+
 /- Evaluating expressions -/
 
 #eval 2 + 2
